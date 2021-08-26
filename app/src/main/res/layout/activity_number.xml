@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fon2"
+    android:layout_height="match_parent"
+    tools:context=".Number">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Единая дежурная диспетчерская служба"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/button"
+                android:onClick="send"
+                android:text="8 (483) 74-30-14"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView12"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Единая служба спасения"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:onClick="send1"
+                tools:ignore="OnClick"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/button"
+                android:text="8 (483) 248-32-01" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Скорая помощь"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:onClick="send2"
+                tools:ignore="OnClick"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/button"
+                android:text="8 (483) 266-33-94" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Телефон доверия (МЧС)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:onClick="send3"
+                tools:ignore="OnClick"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/button"
+                android:text="8 (483) 599-000" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пожарная служба"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:onClick="send4"
+                tools:ignore="OnClick"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/button"
+                android:text="101" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

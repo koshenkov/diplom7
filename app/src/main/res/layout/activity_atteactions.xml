@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon2"
+    tools:context=".ActivityAtteactions">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:paddingTop="50dp"
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Курган Бессмертия"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/kurg"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Площадь партизан"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/part"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Памятник водителям"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/vod"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send2"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Парк-музей имени А.К.Толстого"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/tol"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send3"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Брянский областной театр драмы им. А. К. Толстого"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/teatr"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send4"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Стадион 'Динамо'"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/din"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send5"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Покровская гора"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/pokr"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send6"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Партизанская поляна"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/partpol"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send7"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Свенский монастырь"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/swen"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send8"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Парк имени Пушкина"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/pushkin"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send9"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сквер имени В.И.Ленина."
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/lenin"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send10"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Воскресенский храм"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="396dp"
+                android:background="@drawable/hram"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="24sp"
+                android:onClick="send11"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#F44336"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:visibility="visible"
+
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
